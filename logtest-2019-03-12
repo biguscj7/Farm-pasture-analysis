@@ -1,0 +1,38 @@
+[2019-03-12 07:32:58.823729] NOTICE: Startup: Logging initialized, level: 9, mode: file mode: logtest
+[2019-03-12 07:32:59.889570] TRACE: App: Server response 200
+[2019-03-12 07:32:59.890253] TRACE: App: Total poly's returned - 12
+[2019-03-12 07:33:14.380864] TRACE: App: Date entered 201919;lkjas;dlkfj
+[2019-03-12 07:33:14.383136] ERROR: App: time data '201919;lkjas;dlkfj' does not match format '%m-%d-%Y'
+[2019-03-12 07:33:21.900158] TRACE: App: Date entered 05-24-2019
+[2019-03-12 07:33:34.508782] TRACE: App: Date entered d;lkjsftkher;ljks;ldkjf
+[2019-03-12 07:33:34.509025] ERROR: App: time data 'd;lkjsftkher;ljks;ldkjf' does not match format '%m-%d-%Y'
+[2019-03-12 07:33:36.173221] TRACE: App: Date entered 
+[2019-03-12 07:33:36.173483] ERROR: App: time data '' does not match format '%m-%d-%Y'
+[2019-03-12 07:33:36.603401] TRACE: App: Date entered 
+[2019-03-12 07:33:36.603624] ERROR: App: time data '' does not match format '%m-%d-%Y'
+[2019-03-12 07:38:27.141054] NOTICE: Startup: Logging initialized, level: 9, mode: file mode: logtest
+[2019-03-12 07:38:28.252743] TRACE: App: Server response 200
+[2019-03-12 07:38:28.253510] TRACE: App: Total poly's returned - 12
+[2019-03-12 07:38:49.585385] TRACE: App: Date entered 05-31-2018
+[2019-03-12 07:38:57.904140] TRACE: App: Date entered 07-30-2018
+[2019-03-12 07:48:14.304240] NOTICE: Startup: Logging initialized, level: 9, mode: file mode: logtest
+[2019-03-12 07:48:15.389586] TRACE: App: Server response 200
+[2019-03-12 07:48:15.390276] TRACE: App: Total poly's returned - 12
+[2019-03-12 07:48:27.134259] TRACE: App: Date entered 05-31-2018
+[2019-03-12 07:48:34.844887] TRACE: App: Date entered 07-30-2018
+[2019-03-12 07:50:16.151128] NOTICE: Startup: Logging initialized, level: 9, mode: file mode: logtest
+[2019-03-12 07:50:17.248589] TRACE: App: Server response 200
+[2019-03-12 07:50:17.249215] TRACE: App: Total poly's returned - 12
+[2019-03-12 07:50:24.289034] TRACE: App: Date entered 05-31-2018
+[2019-03-12 07:50:28.336481] TRACE: App: Date entered 07-30-2018
+[2019-03-12 07:55:12.244081] NOTICE: Startup: Logging initialized, level: 9, mode: file mode: logtest
+[2019-03-12 07:55:13.289123] TRACE: App: Server response 200
+[2019-03-12 07:55:13.289580] TRACE: App: Total poly's returned - 12
+[2019-03-12 07:55:22.232684] TRACE: App: Date entered 05-31-2018
+[2019-03-12 07:55:28.432326] TRACE: App: Date entered 07-30-2018
+[2019-03-12 07:55:58.797004] NOTICE: Startup: Logging initialized, level: 9, mode: file mode: logtest
+[2019-03-12 07:55:59.586177] TRACE: App: Server response 200
+[2019-03-12 07:55:59.586823] TRACE: App: Total poly's returned - 12
+[2019-03-12 07:56:07.506282] TRACE: App: Date entered 05-31-2018
+[2019-03-12 07:56:10.970244] TRACE: App: Date entered 07-30-2018
+[2019-03-12 07:56:12.143253] TRACE: App: Query url http://api.agromonitoring.com/agro/1.0/image/search?start=1527724800.0&end=1532908800.0&polyid=5c34b76f16d58400097c9e82&appid=8cde214c90d41e08e5d1c297a3551e10&type=s2&clouds_max=5
