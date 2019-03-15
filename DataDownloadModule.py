@@ -6,6 +6,7 @@ from the AgriAPI site.
 import pprint, datetime, requests, json
 import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
+import os
 
 # TODO - implement aware datetimes using UTC
 starttime = datetime.datetime(2018,1,1,0,0,0,0)
@@ -16,7 +17,7 @@ baseurl = 'http://api.agromonitoring.com/agro/1.0/ndvi/history?'
 starturl = f'&start={int(starttime.timestamp())}'
 endurl = f'&end={int(endtime.timestamp())}'
 polyid = f'&polyid=5c34b76f16d58400097c9e82'
-apiid = f'&appid=8cde214c90d41e08e5d1c297a3551e10'
+apiid = os.environ['API_ID']
 sattype = f'&type=s2'
 cloudmax = f'&clouds_max=10'
 # not currently including satellite type in query
@@ -57,4 +58,5 @@ def plot_data(first_time, first_value, second_value, third_value):
 	plt.plot(first_time, third_value)
 	plt.show()
 
-plot_data(timelist, meanlist, medianlist, cllist)
+if __name__ == '__main__':
+	plot_data(timelist, meanlist, medianlist, cllist)

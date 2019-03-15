@@ -1,6 +1,7 @@
 import pprint, datetime, requests, json
 import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
+import os
 
 # TODO - Get start/stop dates
 starttime = datetime.datetime(2018,3,1,0,0,0,0)
@@ -10,7 +11,7 @@ endtime = datetime.datetime(2018,9,30,23,59,59)
 starturl = f'{int(starttime.timestamp())}'
 endurl = f'{int(endtime.timestamp())}'
 polyid = f'5c34b76f16d58400097c9e82'
-apiid = f'8cde214c90d41e08e5d1c297a3551e10'
+apiid = os.environ['API_ID']
 sattype = f'&type=s2'
 cloudmax = f'&clouds_max=5'
 baseurl = f'http://api.agromonitoring.com/agro/1.0/image/search?start={starturl}&end={endurl}&polyid={polyid}&appid={apiid}'

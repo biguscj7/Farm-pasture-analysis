@@ -110,4 +110,4 @@ if __name__ == '__main__':
     g = SatImage(polyid, starturl, endurl, cloudmax='5', sattype='s2')
     g.polysat('data')
 
-    profiler.print_stats(sort='cumtime')
+    #profiler.print_stats(sort='cumtime')

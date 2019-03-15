@@ -1,0 +1,12 @@
+[2019-03-15 15:59:11.937228] NOTICE: Startup: Logging initialized, level: 9, mode: file mode: logtest
+[2019-03-15 15:59:13.219182] TRACE: App: Server response 200
+[2019-03-15 15:59:13.219881] TRACE: App: Total poly's returned - 12
+[2019-03-15 15:59:24.765906] TRACE: App: Date entered 05-31-2018
+[2019-03-15 15:59:30.637143] TRACE: App: Date entered 09-30-2018
+[2019-03-15 15:59:31.970789] TRACE: App: Query url http://api.agromonitoring.com/agro/1.0/image/search?start=1527724800.0&end=1538265600.0&polyid=5c34b76f16d58400097c9e82&appid=8cde214c90d41e08e5d1c297a3551e10&type=s2&clouds_max=5
+[2019-03-15 16:06:36.376777] NOTICE: Startup: Logging initialized, level: 9, mode: file mode: logtest
+[2019-03-15 16:06:37.421026] TRACE: App: Server response 200
+[2019-03-15 16:06:37.421453] TRACE: App: Total poly's returned - 12
+[2019-03-15 16:06:50.067380] TRACE: App: Date entered 05-31-2018
+[2019-03-15 16:06:58.073180] TRACE: App: Date entered 08-31-2018
+[2019-03-15 16:06:59.307940] TRACE: App: Query url http://api.agromonitoring.com/agro/1.0/image/search?start=1527724800.0&end=1535673600.0&polyid=5c34b76f16d58400097c9e82&appid=8cde214c90d41e08e5d1c297a3551e10&type=s2&clouds_max=5
